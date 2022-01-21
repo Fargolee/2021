@@ -39,4 +39,14 @@ def test_zero():
     assert num == 0
 
 # 5.预先知道测试用例会失败，但是不想跳过，需要显示提示信息，使用pytest.mark.xfail()
-@pytest.mark
+@pytest.mark.xfail()
+def test_sum():
+    random_list = [random.randint(0,100) for x in range(10)]
+    num = sum(random_list)
+    assert num < 20
+
+# 6.对测试用例进行多组数据测试，每组参数都能够独立执行一次（可以避免测试用例内部执行单组数据测试不通过后停止测试）
+@pytest.mark.parametrize('num,num2', [(1,2),(3,4)])
+def test_many_odd(num: int, num2:int):
+    assert num %2==1
+    assert num2 %2==0

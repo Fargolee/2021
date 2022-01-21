@@ -6,6 +6,8 @@ Descripttion: RTMart
 Date: 2022-01-18 18:35:27
 '''
 '''
+https://juejin.cn/post/7013949685992259591
+
 Pytest编写规则:
 
 测试文件以test_开头（以_test为结尾）
