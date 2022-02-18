@@ -1,0 +1,81 @@
+{
+  "uid" : "b9a0eeb9aadc97f7",
+  "name" : "test_03",
+  "fullName" : "test_01.TestCase#test_03",
+  "historyId" : "3c7cc6a836224e76576e1c8357e05e6a",
+  "time" : {
+    "start" : 1645150190314,
+    "stop" : 1645150190314,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "self = <test_01.TestCase object at 0x000001EA642C4E80>\n\n    def test_03(self):\n        print('---用例03---')\n>       assert 0\nE       assert 0\n\ntest_01.py:17: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 0",
+    "statusTrace" : "self = <test_01.TestCase object at 0x000001EA642C4E80>\n\n    def test_03(self):\n        print('---用例03---')\n>       assert 0\nE       assert 0\n\ntest_01.py:17: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5eb18569f605c82f",
+      "name" : "stdout",
+      "source" : "5eb18569f605c82f.txt",
+      "type" : "text/plain",
+      "size" : 15
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_01"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCase"
+  }, {
+    "name" : "host",
+    "value" : "SH-QA-PC0190"
+  }, {
+    "name" : "thread",
+    "value" : "20108-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b9a0eeb9aadc97f7.json",
+  "parameterValues" : [ ]
+}
