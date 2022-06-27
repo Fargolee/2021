@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b29d84d4-3a15-4c9b-83c3-ac8e10698b0c" name="默认变更列表" comment="">
+      <change afterPath="$PROJECT_DIR$/随笔/网易云词云图.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,23 +33,23 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Python" />
   </component>
-  <component name="RunManager" selected="Python.mysql">
-    <configuration name="樱花" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="2021" />
+  <component name="RunManager" selected="Python.网易云词云图">
+    <configuration name="网易云词云图" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/吾爱" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="SDK_HOME" value="D:\Dev\python\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/随笔" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/吾爱/樱花.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/随笔/网易云词云图.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,15 +148,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mysql" />
+        <item itemvalue="Python.网易云词云图" />
         <item itemvalue="Python.test_api" />
-        <item itemvalue="Python.01.Requests一血" />
+        <item itemvalue="Python.mysql" />
         <item itemvalue="Python.1" />
-        <item itemvalue="Python.樱花" />
+        <item itemvalue="Python.01.Requests一血" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\lee\AppData\Roaming\Subversion</configuration>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
       <changelist id="b29d84d4-3a15-4c9b-83c3-ac8e10698b0c" name="默认变更列表" comment="" />
@@ -167,6 +174,9 @@
       <workItem from="1653810366142" duration="771000" />
       <workItem from="1653969326692" duration="282000" />
       <workItem from="1653969622784" duration="1189000" />
+      <workItem from="1654526892669" duration="1472000" />
+      <workItem from="1654528595219" duration="2096000" />
+      <workItem from="1655137011078" duration="38000" />
     </task>
     <servers />
   </component>
@@ -174,6 +184,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mysql_py$.coverage" NAME="网易云词云图 覆盖结果" MODIFIED="1654530327519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随笔" />
     <SUITE FILE_PATH="coverage/2021$.coverage" NAME="樱花 覆盖结果" MODIFIED="1653661507506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/吾爱" />
     <SUITE FILE_PATH="coverage/2021$1.coverage" NAME="1 覆盖结果" MODIFIED="1653711204330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/mysql_py$mysql.coverage" NAME="mysql 覆盖结果" MODIFIED="1653810541955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/随笔" />
